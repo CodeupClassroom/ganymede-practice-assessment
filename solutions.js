@@ -20,3 +20,30 @@
  * and
  * concat
  */
+var input = input
+function isTrue (input) {
+    return true;
+}
+
+
+function isFalse (value) {
+    return true;
+    if (value === false);
+    else true
+
+}
+function not(boolean) {
+    return !boolean ;
+}
+var num = number
+function addOne(input) {
+    if (input(num ||"str"));
+    return parseInt(input + 1)
+}
+
+function isEven (input){
+    var input
+}
+
+
+
