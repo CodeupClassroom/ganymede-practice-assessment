@@ -20,3 +20,53 @@
  * and
  * concat
  */
+
+function isTrue(something){
+    return something === true;
+}
+
+//console.log(isTrue(true));
+//console.log(isTrue(false));
+//console.log(isTrue(null));
+
+function isFalse(anotherSomething){
+    return anotherSomething === false;
+}
+//console.log(isFalse(false));
+//console.log(isFalse(true));
+//console.log(isFalse(""));
+
+function not(alsoNot) {
+    return !alsoNot;
+}
+
+//console.log(not(false));
+//console.log(not(0));
+//console.log(not(true));
+
+function addOne(added) {
+    return ++added
+}
+
+function isEven(num) {
+    if(num%2 === 0){
+        return true;
+    }else{
+        return false;
+    }
+
+}
+
+function isIdentical(twin1, twin2) {
+    if (twin1 === twin2){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+function isEqual(twin1, twin2){
+    if (twin1 === twin2){
+        return true
+    }
+}
