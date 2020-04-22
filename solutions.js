@@ -40,11 +40,13 @@ function not(input) {
 function addOne(number) {
     return (!isNaN(number)) ? Number(number) + 1 : number;
 }
+// simpler solution is just:  return parseFloat(input) + 1;
 
 // 5. isEven
 function isEven(number) {
     return (typeof parseInt(number) === "number") ? parseInt(number) % 2 === 0: false;
 }
+// simpler solution is just:  return parseFloat(input) % 2 === 0;
 
 // 6. isIdentical
 function isIdentical(input1, input2) {
@@ -70,3 +72,5 @@ function and(input1, input2) {
 function concat(input1, input2) {
     return (typeof input1 === "string" && typeof input2 === "string") ? input1 + input2 : input1.toString() + input2.toString();
 }
+// simpler solution is just:  return "" + input1 + input2;
+// or:  return String(input1) + String(input2);
