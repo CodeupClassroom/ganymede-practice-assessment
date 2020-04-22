@@ -22,23 +22,23 @@
  */
 
 function isTrue(input){
-   return typeof (input) === "boolean";
+   return input === true;
 }
 
 function isFalse(num){
-    return typeof (num) === "boolean";
+    return (num) === false;
 }
 
 function not(num1){
-    return typeof (num1) !== "boolean";
+    return (!num1);
 }
 
 function addOne(num2){
-    return (num2 + 1);
+    return parseFloat(num2) + 1;
 }
 
 function isEven(input1){
-    return input1 % 2 === 0;
+    return parseFloat(input1) % 2 === 0;
 }
 
 function isIdentical(num1, num2){
@@ -50,5 +50,13 @@ function isEqual(num1, num2){
 }
 
 function or(num1, num2){
-    return
+    return num1 || num2;
+}
+
+function and(input2, input3){
+    return input2 && input3;
+}
+
+function concat(input1, input2){
+    return "" + input1 + input2;
 }
