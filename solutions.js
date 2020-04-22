@@ -38,8 +38,12 @@ function addOne(x) {
     return (Number(x) + 1);
 }
 
-function isEven(num){
-    return(num % 2 === 0)
+function isEven(num) {
+    if (num === false) {
+        return false;
+    } else {
+        return (num % 2 == 0);
+    }
 }
 
 function isIdentical(input1, input2) {
