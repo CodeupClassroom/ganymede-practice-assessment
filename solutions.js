@@ -20,3 +20,56 @@
  * and
  * concat
  */
+
+function isTrue(v) {
+    return v === true;
+}
+
+function isFalse(v) {
+    return v === false;
+}
+
+function not(v) {
+    return !(v);
+}
+
+function addOne(v) {
+    if(isNaN(v))
+        return NaN;
+    else if(v != Infinity)
+    {
+        v = parseInt(v);
+        v +=1;
+    }
+    return v;
+}
+
+function isEven(v) {
+    v = parseInt(v);
+    if(v % 2 === 0)
+        return true;
+    else
+        return false;
+}
+
+function isIdentical(v1, v2) {
+    return v1 === v2;
+}
+
+function isEqual(v1, v2) {
+    return v1 == v2;
+}
+
+function or(v1, v2) {
+    return(v1 || v2);
+}
+
+function and(v1, v2) {
+    return(v1 && v2);
+}
+
+function concat(v1, v2) {
+    v1 = v1.toString();
+    v2 = v2.toString();
+    return v1 + v2;
+}
