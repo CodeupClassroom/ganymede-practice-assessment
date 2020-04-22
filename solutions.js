@@ -20,3 +20,16 @@
  * and
  * concat
  */
+
+
+// 2
+var truthInput = true
+function isTrue() {
+    var truthInput = prompt('Truth test')
+    if (truthInput === true) {
+        return true;
+    }
+        else {
+            return false;
+    }
+}
