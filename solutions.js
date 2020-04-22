@@ -103,6 +103,10 @@ function and(input1, input2) {
 
 // 10
 
-function concat() {
-
+function concat(input1, input2) {
+    if (input1, input2 != "number") {
+        return input1 + input2;
+    } else {
+        return (input1) + (input2);
+    }
 }
