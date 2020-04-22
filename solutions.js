@@ -22,14 +22,51 @@
  */
 
 
-// 2
-var truthInput = true
-function isTrue() {
-    var truthInput = prompt('Truth test')
-    if (truthInput === true) {
+function isTrue(input) {
+    return input === true;
+}
+
+function isFalse(input) {
+    return input === false;
+}
+
+function not(input) {
+    return !input;
+}
+
+function addOne(input) {
+    return parseFloat(input) + 1;
+}
+
+function isEven(num) {
+    if (parseFloat(num) % 2 === 0)
         return true;
-    }
-        else {
-            return false;
-    }
+    else
+        return false;
+}
+
+function isIdentical(input1, input2) {
+    if (input1 === input2)
+        return true;
+    else
+        return false;
+}
+
+function isEqual(input1, input2) {
+    if (input1 == input2)
+        return true;
+    else
+        return false;
+}
+
+function or(input1, input2) {
+    return input1 || input2;
+}
+
+function and(input1, input2) {
+    return input1 && input2;
+}
+
+function concat(input1, input2) {
+    return "" + input1 + input2;
 }
