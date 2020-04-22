@@ -54,7 +54,7 @@ function not(input) {
 // 4
 
 function addOne(input) {
-    if (input == "number") {
+    if (input == true) {
         return input + 1;
     }
 }
