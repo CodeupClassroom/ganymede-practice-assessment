@@ -20,3 +20,64 @@
  * and
  * concat
  */
+function isTrue(input) {
+    if (input === true) {
+        return true;
+    } else {
+        return false
+    }
+}
+
+function isFalse(input){
+    if (input===false){
+        return true;
+    }else {
+        return false;
+    }
+}
+
+function isEqual (Number) {
+    if (Number === Number) {
+        return true;
+    } else {
+        return false;
+    }
+}
+ function isIdentical (input1, input2) {
+    if (input1 === input2) {
+        return true;
+    } else{
+        return false;
+    }
+ }
+
+ function and(input1, input2){
+if (input1 === input1 && input2) {
+    return true;
+} else {
+    return false;
+}
+}
+function isEven(number) {
+    if (number % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+function concat (string1, string2){
+    return ('string1' + 'string2')
+}
+
+function isNaN(input){
+    if (input === isNan) {
+        return false;
+    }else {
+        return true;
+
+    }
+}
+
+function addOne (number){
+    return number + 1;
+}
