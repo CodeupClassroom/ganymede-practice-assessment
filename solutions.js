@@ -22,41 +22,67 @@
  */
 
 function isTrue (input) {
-    return input === true
+    return input === true;
 }
 
 function isFalse(input) {
-    return input === false
+    return input === false;
 }
+//===============================wrong
+// function not(input) {
+//     return (input !== true);
+// }
 
+//correct
 function not(input) {
-    return (input !== true);
+    return !input
 }
 
-function addOne (input) {
-    return Number(input + 1)
+
+// ==============================wrong
+// function addOne (input) {
+//     return (input + 1);
+// }
+
+//correct
+function addOne(input) {
+    return parseFloat(input) + 1;
 }
 
-function isEven (input) {
-    return input % 2 === 0;
+
+//================================wrong
+// function isEven (input) {
+//     return input % 2 === 0;
+// }
+
+//CORRECT
+function isEven(input) {
+    return parseFloat(input) % 2 ===0;
 }
 
 function isIdentical (input1, input2) {
-    return input1 === input2
+    return input1 === input2;
 }
 
 function isEqual (input1, input2) {
-    return input1 == input2
+    return input1 == input2;
 }
 
 function or (input1, input2) {
-    return input1 || input2
+    return input1 || input2;
 }
 
 function and (input1, input2) {
-    return input1 && input2
+    return input1 && input2;
 }
 
+
+// //=====================================wrong
+// function concat (input1, input2) {
+//     return input1.concat(input2);
+// }
+
+//correct
 function concat (input1, input2) {
-    return input1.concat(input2);
+    return '' + input1 + input2 ;
 }
