@@ -20,9 +20,6 @@
  * and
  * concat
  */
-
-// 1
-
 function isTrue (input) {
     if (input === true) {
         return true;
@@ -47,7 +44,7 @@ function not(input) {
 
 // 4
 function addOne (input) {
-    return input + 1;
+    return ++ input;
 }
 
 // 5
@@ -90,4 +87,3 @@ function and(x, y) {
 function concat(x, y) {
     var value = x + y;
     return value;
-}
