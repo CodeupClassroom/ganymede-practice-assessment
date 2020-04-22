@@ -43,7 +43,7 @@ function addOne(number) {
 
 // 5. isEven
 function isEven(number) {
-    return (typeof Number(number) === "number") ? Number(number) % 2 === 0: false;
+    return (typeof parseInt(number) === "number") ? parseInt(number) % 2 === 0: false;
 }
 
 // 6. isIdentical
