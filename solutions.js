@@ -20,3 +20,74 @@
  * and
  * concat
  */
+
+// 1
+
+function isTrue (input) {
+    if (input === true) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// 2
+function isFalse (input) {
+    if (input === false) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+//3
+function not(input) {
+    return !input;
+}
+
+// 4
+function addOne (input) {
+    return input + 1;
+}
+
+// 5
+function isEven(value) {
+    if (value%2 === 0)
+        return true;
+    else
+        return false;
+}
+
+// 6
+function isIdentical (inpOne, inpTwo) {
+    if (inpOne === inpTwo) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// 7
+function isEqual (inpOne, inpTwo) {
+    if (inpOne == inpTwo) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// 8
+function or(x, y) {
+    return x === y || y === x;
+}
+
+// 9
+function and(x, y) {
+    return
+}
+
+// 10
+function concat(x, y) {
+    var value = x + y;
+    return value;
+}
