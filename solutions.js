@@ -32,19 +32,19 @@ function isFalse(input) {
 }
 
 function not(anyInput) {
-    return !anyInput
+    return !anyInput;
 }
 
 function addOne(singleInput) {
-    return Number(singleInput) + 1
+    return parseFloat(singleInput) + 1;
 }
 
 
 function isEven(input) {
-    return input % 2 === 0;
+    return parseFloat(input) % 2 === 0;
 }
 
-function isIdentical(input1, input2){
+function isIdentical(input1, input2) {
     return input1 === input2;
 }
 
@@ -52,6 +52,15 @@ function isEqual(input1, input2) {
     return input1 == input2;
 }
 
-function of(input1, input2) {
+function or(input1, input2) {
+    return input1 || input2;
+}
 
+function and(input1, input2) {
+    return input1 && input2;
+}
+
+
+function concat(input1, input2) {
+    return "" + input1 + input2;
 }
